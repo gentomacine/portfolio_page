@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1;
+}
+
+/* Header */
+.header {
+  padding: 100px;
+  text-align: center;
+  background:rgb(183, 87, 138);
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 50px;
+}
+/* Increase the font size of the heading */
+.header p {
+  font-size: 30px;}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  text-align: right;
+  font-size: 35px;
+
+  
+}
+Style the navigation bar links */
+.navbar a {
+  
+  padding: 14px 200px;
+  text-decoration: none;
+  font-size: 35px;
+}
+/* Change color on hover */
+.navbar a:hover {
+  background-color: rgb(170, 33, 115);
+  color: black;
+}
+/* Column container */
+ .row{  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: whitesmoke;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: rgb(161, 155, 155);
+  padding: 20px;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(183, 87, 138);
+}
+.footer form{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 0px;
+  text-align: center;
+  border-spacing: 5px;
+}
